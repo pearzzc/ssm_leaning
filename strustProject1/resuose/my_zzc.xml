@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <!--package 表示的是：包：用于管理不同的action-->
+    <package name="struts" extends="struts-default" >
+        <!--一个action 便是一次访问，及一次请求-->
+        <action name="hello" class="com.zzc.struts2.HelloAction">
+            <!--配置结果页-->
+            <result name="zzc">/mytest01.jsp</result>
+        </action>
+
+        <action name="hello2" class="com.zzc.struts2.HelloAction2">
+            <result name="success">/mytest01.jsp</result>
+        </action>
+
+        <action name="hello3" class="com.zzc.struts2.HelloAction3">
+            <result name="success">/hello.jsp</result>
+        </action>
+
+    </package>
+</struts>

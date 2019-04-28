@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc7634eb-21f2-4d80-8803-3d62fe531af6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/HelloMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/artifacts/spring03_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/libraries/com_springsource_com_mchange_v2_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/resouce/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/resouce/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/resouce/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/artifacts/EmpManageSys_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/salary/AttendenceSetAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/salary/AttendenceSetAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/salary/InsuranceAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/salary/InsuranceAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/LoginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/LoginAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/UpdatePasswordAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/UpdatePasswordAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/Servlet/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/Servlet/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CtiteiaCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CtiteiaCustomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/ReflectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/daomain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/daomain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/JDBCTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/JDBCTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/connectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/connectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/mvc/dao/impl/CustomerImplTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/mvc/db/connectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/src/mvc/db/connectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/.rebel-remote.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/.rebel.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/artifacts/mystore2_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/artifacts/mystore2_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/WebContent/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/WebContent/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/mystore2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/mystore2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/out/artifacts/mystore2_Web_exploded/WEB-INF/classes/com/mystore/domian/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/out/artifacts/mystore2_Web_exploded/WEB-INF/classes/com/mystore/domian/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/out/production/mystore2/com/mystore/domian/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/out/production/mystore2/com/mystore/domian/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/src/com/mystore/domian/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/src/com/mystore/domian/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/src/com/mystore/web/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/src/com/mystore/web/RegistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/artifacts/mystore4_Web2_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/libraries/tomcat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/mystore4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/mystore4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/test/GoodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/src/com/mystore3/test/GoodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/.idea/artifacts/sushe_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sushe/.idea/artifacts/sushe_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sushe/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sushe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/LoginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/MenuBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/bootBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/ic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/left1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/left2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/leftbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/mainMenuBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/LoginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/MenuBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/bootBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/ic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/left1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/left2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/leftbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/mainMenuBg.jpg" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/demo03/AopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/demo03/Check.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/demo02/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/zzc/demo01/Goods.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo01/GoodsImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo01/GoodsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo01/JDKProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo02/UserImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo02/CglibProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo02/CglibProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo03/Check.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo03/AopTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/demo02/UserDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/com_springsource_com_mchange_v2_c3p0_0_9_1_2.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring04" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring04" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring05" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\idea\spring04\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AopTest.test">
+    <configuration name="AopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.demo03" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.demo03.AopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.demo03" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.demo03.AopTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CglibProxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.demo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.demo02" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.demo02.CglibProxyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.demo01.GoodsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="spring04:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring04_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring04:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AopTest.test" />
+        <item itemvalue="JUnit.AopTest" />
+        <item itemvalue="JUnit.CglibProxyTest.test" />
+        <item itemvalue="JUnit.GoodsTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc7634eb-21f2-4d80-8803-3d62fe531af6" name="Default Changelist" comment="" />
+      <created>1554685038097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554685038097</updated>
+      <workItem from="1554685041369" duration="10973000" />
+      <workItem from="1554859235827" duration="5322000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AopTest_test - 2019.04.08 at 12h 03m 28s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.08 at 12h 04m 01s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.08 at 12h 06m 00s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.08 at 12h 08m 10s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.08 at 12h 12m 34s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.10 at 09h 39m 08s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.10 at 09h 40m 08s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.10 at 09h 41m 29s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.10 at 09h 44m 10s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test - 2019.04.10 at 09h 45m 45s.xml">
+      <configuration name="AopTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16295000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo01/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo01/GoodsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo01/GoodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo01/JDKProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo02/CglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="1" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo02/CglibProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo02/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo03/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/demo03/AopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--id 是自己去的名称 class 是对应类的全路径名称 s-->
+    <bean id="userDao" class="com.zzc.demo01.Oracle_User">
+        <property name="name" value="zzx"></property>
+    </bean>
+
+
+
+</beans>

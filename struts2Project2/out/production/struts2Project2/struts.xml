@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+
+<struts>
+
+
+    <package name="form1" extends="struts-default">
+        <!--配置全局的结果页-->
+        <global-results>
+            <result name="login">/login.jsp</result>
+            <result name="input">/index.jsp</result>
+        </global-results>
+        <action name="myform" class="com.zzc.struts2.Myform01">
+            <result name="success">/success.jsp</result>
+        </action>
+        <action name="myform1" class="com.zzc.struts2.Myform02">
+            <result name="success">/success.jsp</result>
+        </action>
+
+        <action name="myform2" class="com.zzc.struts2.Myform03">
+            <result name="success">/success.jsp</result>
+        </action>
+
+        <action name="myform3" class="com.zzc.struts2.Myform04">
+            <result name="success">/success.jsp</result>
+        </action>
+    </package>
+</struts>

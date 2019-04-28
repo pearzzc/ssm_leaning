@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!--持久化类对象和数据表的映射-->
+<hibernate-mapping>
+    <class name="com.zzc.domain.Account" table="account">
+        <!--表示表中的主键属性-->
+        <id name="id" column="id">
+            <!--表示主键的生成策略  这里的 navive 表示主键自增-->
+            <generator class="native"></generator>
+        </id>
+        <property name="name" column="name"/>
+        <property name="money" column="money"/>
+    </class>
+</hibernate-mapping>

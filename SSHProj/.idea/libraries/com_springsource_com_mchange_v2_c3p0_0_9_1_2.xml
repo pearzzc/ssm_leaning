@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="com.springsource.com.mchange.v2.c3p0-0.9.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

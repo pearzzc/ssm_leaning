@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzc.mapper.UserMapperOrders">
+    <!--
+        一对一关系映射,使用平铺式映射 :ResultType
+    -->
+    <select id="findOrderUser" resultType="com.zzc.domain.OrdersCustom">
+        SELECT
+		  orders.*,
+		  user.`username`,
+		  user.`sex`,
+		  user.`address`
+		FROM
+		  orders,
+		  USER
+		WHERE orders.`user_id` = user.`id`
+    </select>
+    <!--
+        使用resultMap 进行一对一的映射
+    -->
+    <resultMap id="findOrderUser2" type="com.zzc.domain.Orders">
+        <id property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="number" column="number"/>
+        <result property="createtime" column="createtime"/>
+        <result property="note" column="note"/>
+
+        <!--配置关联的用户信息-->
+        <!--association用于关联映射查询的单个对象
+            property: 关联的属性映射到Order 类的具体属性：这里式是Order 类的user 属性
+            Javatype:是该属性的类型
+        -->
+        <association property="user" javaType="com.zzc.domain.User">
+            <id column="id" property="id"/>
+            <result column="username" property="username"/>
+            <result column="sex" property="sex"/>
+            <result column="address" property="address"/>
+        </association>
+    </resultMap>
+
+    <select id="findOrderUserMap" resultMap="findOrderUser2">
+        SELECT
+	  orders.*,
+	  user.`username`,
+	  user.`sex`,
+	  user.`address`
+	FROM
+	  orders,
+	  USER
+	WHERE orders.`user_id` = user.`id`
+    </select>
+
+    <!--配置一对多的映射关系-->
+    <resultMap id="OrdersAndOrderDetailResultMap" type="com.zzc.domain.Orders" extends="findOrderUser2">
+        <collection property="orderdetails" ofType="com.zzc.domain.Orderdetail">
+            <id property="id" column="id"/>
+            <result property="ordersId" column="orders_id"/>
+            <result property="itemsId" column="items_id"/>
+            <result property="itemsNum" column="items_num"/>
+        </collection>
+    </resultMap>
+    <select id="findOrdersAndOrderDetailResultMap" resultMap="OrdersAndOrderDetailResultMap">
+        SELECT
+	  orders.*,
+	  user.`username`,
+	  user.`sex`,
+	  user.`address`,
+	  orderdetail.`id`,
+	  orderdetail.`items_id`,
+	  orderdetail.`items_num`,
+	  orderdetail.`orders_id`
+	FROM
+	  orders,
+	  USER,
+	  orderdetail
+	WHERE orders.`user_id`=user.`id` AND orders.`id` = orderdetail.`orders_id`
+    </select>
+
+    <!--多对多关系映射-->
+    <select id="findUserAndItemsResultMap" resultMap="UserAndItemsResultMap">
+	SELECT
+	  orders.*,
+	  user.`username`,
+	  user.`sex`,
+	  user.`address`,
+	  orderdetail.`id` orderdetail_id,
+	  orderdetail.`items_id`,
+	  orderdetail.`items_num`,
+	  orderdetail.`orders_id`,
+	  items.`name` items_name,
+	  items.`detail` items_detail,
+	  items.`price` items_price
+	FROM
+	  orders,
+	  USER,
+	  orderdetail,
+	  items
+	WHERE orders.`user_id`=user.`id` AND orders.`id` = orderdetail.`orders_id` AND orderdetail.`items_id`=items.`id`
+</select>
+
+    <resultMap type="com.zzc.domain.User" id="UserAndItemsResultMap">
+        <!-- 用户信息 -->
+        <id column="user_id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="sex" property="sex"/>
+        <result column="address" property="address"/>
+        <!-- 订单信息 -->
+        <!-- 一个用户对应多个订单，使用collection -->
+        <collection property="ordersList" ofType="com.zzc.domain.Orders">
+            <id column="id" property="id"/>
+            <result column="user_id" property="userId"/>
+            <result column="number" property="number"/>
+            <result column="createtime" property="createtime"/>
+            <result column="note" property="note"/>
+            <!-- 订单明细信息 -->
+            <!-- 一个订单包括多个明细，使用collection -->
+            <collection property="orderdetails" ofType="com.zzc.domain.Orderdetail">
+                <id column="orderdetail_id" property="id"/>
+                <result column="items_id" property="itemsId"/>
+                <result column="items_num" property="itemsNum"/>
+                <result column="orders_id" property="ordersId"/>
+                <!-- 商品信息 -->
+                <!-- 一个明细对应一个商品信息，使用association -->
+                <association property="items" javaType="com.zzc.domain.Items">
+                    <id column="items_id" property="id"/>
+                    <result column="items_name" property="name"/>
+                    <result column="items_detail" property="detail"/>
+                    <result column="items_price" property="price"/>
+                </association>
+            </collection>
+        </collection>
+    </resultMap>
+
+<!--设置延迟加载-->
+    <select id="findOrdersUserLazyLoading" resultMap="OrdersUserLazyLoadingResultMap">
+	    SELECT * FROM orders
+    </select>
+
+    <!--设置延迟加载的resultMap-->
+    <resultMap id="OrdersUserLazyLoadingResultMap" type="com.zzc.domain.Orders">
+       <id property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="number" column="number"/>
+        <result property="createtime" column="createtime"/>
+        <result property="note" column="note"/>
+
+        <association property="user" javaType="com.zzc.domain.User"
+                     select= "com.zzc.mapper.UserMapper.findUserById" column="user_id">
+        </association>
+    </resultMap>
+</mapper>

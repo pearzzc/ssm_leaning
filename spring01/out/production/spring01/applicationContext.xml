@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--id 是自己去的名称 class 是对应类的全路径名称  一个类对应一个类
+        标签property 的属性：
+        1. name ：要注入属性的名称
+        2. value :给属性赋的值-
+        3. 在对应的类里要存在set 方法
+        4. 用标签bean 标签的属性：init-method destroy-method 监听类的生命周期
+        5. 用属性scope 表示对象所使用的模式：singleton 单例模式  prototype 多例模式 默认是单例模式
+        -->
+    <bean id="userDao"
+          class="com.zzc.demo01.Oracle_User"
+          init-method="init"
+          destroy-method="destroy"
+          scope="prototype"
+    >
+        <property name="name" value="zzx"/>
+    </bean>
+<!-- 给管理的类 加上一个 init 方法 和 类销毁是的destroy 方法 用用管理类的生命周期-->
+    <bean id="person"
+          class="com.zzc.demo02.Person"
+          init-method="init"
+          destroy-method="destroy"
+    >
+        <property name="name" value="鼠标" />
+    </bean>
+<!-- 分模块进行配置文件的设置-->
+    <import resource="myapplication1.xml"/>
+    <import resource="myapplication2.xml"/>
+</beans>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+
+">
+
+        <import resource="applicationContext2.xml"/>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSourse3"/>
+    </bean>
+
+    <!--配置事务管理器-->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSourse3"/>
+    </bean>
+<!--AOP 增强配置-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:pointcut id="pointcut01" expression="execution(* com.zzc.demo04.AccountServiceImpl.transformMoney(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut01"/>
+    </aop:config>
+<!--    将对应的Dao层的实现类交给Spring 管理-->
+    <bean id="accountDao" class="com.zzc.demo04.AccountDaoImpl">
+        <!--使用set 方法属性注入-->
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
+    <bean id="accountService" class="com.zzc.demo04.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+</beans>

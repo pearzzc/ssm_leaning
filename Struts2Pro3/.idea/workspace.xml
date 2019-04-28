@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Struts2Pro3:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52326bb0-ebbb-4d1c-9de2-e629d5027735" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resouce/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resouce/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resouce/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/.rebel-remote.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/.rebel.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/artifacts/mystore2_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/artifacts/mystore2_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/WebContent/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/WebContent/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/mystore2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/mystore2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/out/artifacts/mystore2_Web_exploded/WEB-INF/classes/com/mystore/domian/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/out/artifacts/mystore2_Web_exploded/WEB-INF/classes/com/mystore/domian/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/out/production/mystore2/com/mystore/domian/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/out/production/mystore2/com/mystore/domian/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/src/com/mystore/domian/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/src/com/mystore/domian/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/src/com/mystore/web/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/src/com/mystore/web/RegistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/artifacts/mystore4_Web2_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/libraries/tomcat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/mystore4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/mystore4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/test/GoodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/src/com/mystore3/test/GoodsTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1236978469">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="2" />
+          <entry key="jsp" value="2" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="2" />
+          <entry key="JSP" value="2" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="553" />
+          <entry key="jsp" value="173" />
+          <entry key="xml" value="155" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="553" />
+          <entry key="JSP" value="173" />
+          <entry key="XML" value="155" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resouce/rebel.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resouce/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/success.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/Goods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/test/HelloAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/zzc/domain/Goods.java" />
+        <option value="$PROJECT_DIR$/web/succes.jsp" />
+        <option value="$PROJECT_DIR$/resouce/struts.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/success.jsp" />
+        <option value="$PROJECT_DIR$/src/com/zzc/test/HelloAction.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="50" />
+    <option name="y" value="15" />
+    <option name="width" value="1400" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+              <item name="resouce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzc" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Pro3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2Pro3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553681352137" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\idea\Struts2Pro3\web\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\idea\Struts2Pro3" />
+      <recent name="D:\Java\idea\Struts2Pro3\web\WEB-INF" />
+      <recent name="D:\Java\idea\Struts2Pro3\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="mytomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="mytomcat" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Struts2Pro3:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="mytomcat_Struts2Pro3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10814" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="10824" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Struts2Pro3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52326bb0-ebbb-4d1c-9de2-e629d5027735" name="Default Changelist" comment="" />
+      <created>1553674936557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553674936557</updated>
+      <workItem from="1553674938761" duration="6785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6785000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="JRebel" sideWeight="0.50121063" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" weight="0.42318437" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resouce/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/ognl-3.1.15.jar!/ognl/OgnlRuntime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resouce/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/test/HelloAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Struts2Pro3:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (Struts2Pro3)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Struts2Pro3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

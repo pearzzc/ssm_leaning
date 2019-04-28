@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+
+<struts>
+<!--在使用valueStrcak取数据时，第一步：设置一个常量 表示程序处于开发阶段： values的值：true -->
+    <constant name="struts.devMode" value="true"></constant>
+
+    <package name="form2" extends="struts-default">
+        <!--配置全局的结果页-->
+        <global-results>
+            <result name="input">/index.jsp</result>
+        </global-results>
+
+        <action name="hello" class="com.zzc.test.HelloAction">
+            <result name="success">/success.jsp</result>
+        </action>
+    </package>
+</struts>

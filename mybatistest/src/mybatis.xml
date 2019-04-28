@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--
+             属性
+        <properties></properties>
+             全局参数设置
+        <settings></settings>
+             类型别名
+        <typeAliases></typeAliases>
+            类型处理器
+        <typeHandles></typeHandles>
+            对象工厂
+        <objectFactory></objectFactory>
+            插件
+        <plugins></plugins>
+        以上属性在后边会详细讲解到，现在我们就只需要关注一下下面的配置即可
+            如下所配置的就是使用这点东西。
+        environments（环境信息集合）
+            environment（单个环境信息）
+                transactionManager（事物）
+                dataSource（数据源）
+            environment
+        environments
+        mappers(映射器)
+    -->
+    <!-- 配置mybatis的环境信息 -->
+    <environments default="development">
+        <environment id="development">
+            <!-- 配置JDBC事务控制，由mybatis进行管理 -->
+            <transactionManager type="JDBC"/>
+            <!-- 配置数据源，采用dbcp连接池 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="12345"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 加载mapper映射文件 -->
+    <mappers>
+       <!-- <mapper resource="com/zzc/domain/books.xml"/>-->
+        <!--批量加载映射文件-->
+        <package name="com.zzc.dao"/>
+    </mappers>
+</configuration>

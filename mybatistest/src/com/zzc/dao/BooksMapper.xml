@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，对sql进行一个分类管理 -->
+<!-- 注意：namespace在mapper代理时，具有重要且特殊的作用 -->
+<mapper namespace="com.zzc.dao.BooksMapper">
+    <!--编写映射条件，也就是下面的-->
+    <!--
+            使用id进行查询
+        查询，使用select来表示一个查询的statement，相当于statement.executeQuery
+        id:表示该statement唯一标识
+        parameterType:输入参数类型
+        resultType:输出参数类型，使用的是User类，则会将查询出来的记录封装到该类中
+        #{id}:使用#{}接收输入的参数，其中的"id"属性名任意，可以为uid，也可以为别的。
+      -->
+    <!--通过uid 进行查询-->
+    <select id="findBoooksById" parameterType="java.lang.Integer" resultType="com.zzc.domain.Books">
+        SELECT * FROM books WHERE uid= #{uid};
+    </select>
+<!--    模糊查询-->
+    <select id="findBookByName" parameterType="java.lang.Integer" resultType="com.zzc.domain.Books">
+        SELECT * FROM books WHERE name like '%${value}%';
+    </select>
+    <!--增加操作-->
+    <insert id="insertBooks" parameterType="com.zzc.domain.Books" useGeneratedKeys="true" keyProperty="uid">
+        insert into books(name, sal) values(#{name}, #{sal});
+    </insert>
+    <!--删除操作-->
+    <delete id="deleteBooksById" parameterType="int">
+        delete from books where uid = #{uid};
+    </delete>
+
+    <!--更新-->
+    <update id="update" parameterType="com.zzc.domain.Books" >
+        update books set name= #{name} where uid = #{uid};
+    </update>
+</mapper>

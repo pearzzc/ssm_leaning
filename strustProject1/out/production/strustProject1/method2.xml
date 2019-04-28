@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+        <!--通配符-->
+<struts>
+    <package name="method" extends="struts-default">
+        <!--name属性填的是：地址栏的值 class属性填的是：对应的相关类的全路径  method 属性 ：执行类方法的名称-->
+        <action name="goods_*" class="com.zzc.struts2.MethodAction" method="{1}">
+            <allowed-methods>add,delete,find,update</allowed-methods>
+        </action>
+
+
+    </package>
+</struts>

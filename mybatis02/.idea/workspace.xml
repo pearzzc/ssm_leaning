@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mybatis02:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ef1f2e9-461f-4ac0-891e-9d4ca1afa242" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/artifacts/EmpManageSys_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/HelloMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloMVC/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/ant-1.10.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/ant-launcher-1.10.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/asm-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/cglib-3.2.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/javassist-3.24.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/log4j-api-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/log4j-core-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/ognl-3.2.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01/lib/slf4j-log4j12-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzc/domain/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzc/domain/ItemsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzc/domain/Orderdetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzc/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzc/domain/OrdersCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzc/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzc/domain/UserQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aspectjweaver-1.6.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/.idea/libraries/ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/ant-1.10.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/ant-launcher-1.10.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/asm-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/cglib-3.2.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/javassist-3.24.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/log4j-api-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/log4j-core-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/mysql-connector-java-5.1.40-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/ognl-3.2.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/lib/slf4j-log4j12-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/dao/BooksMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/dao/BooksMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/domain/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/domain/BooksMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/test/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/test/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/test/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/test/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/com/zzc/utils/MybatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatistest/src/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/src/com/zzc/demo/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/artifacts/spring03_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/libraries/com_springsource_com_mchange_v2_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/src/com/zzc/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/src/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/src/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/druid-1.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../strustProject1/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/resouce/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/resouce/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/resouce/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Pro3/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../struts2Project2/web/WEB-INF/lib/struts2-core-2.5.16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/artifacts/EmpManageSys_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/EmpManageSys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/EmpManageSys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/WebContent/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/WebContent/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/WebContent/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/WebContent/images/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/WebContent/images/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/WebContent/images/pp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/WebContent/images/pp2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/WebContent/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/WebContent/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/dept/DeptListAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/dept/DeptListAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/salary/AttendenceSetAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/salary/AttendenceSetAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/salary/InsuranceAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/salary/InsuranceAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/ImageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/LoginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/LoginAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/UpdatePasswordAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/UpdatePasswordAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/action/user/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/build/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/build/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/My97DatePicker/开发包/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/BaseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/dept/DeptAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/dept/DeptListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/dept/FindDeptAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/dept/ShowDeptAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/emp/EmpAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/emp/EmpListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/emp/FindEmpAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/AddAttendences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/AddSalarys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/AttendenceAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/AttendenceListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/AttendenceSetAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/FindAttendenceAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/FindSalaryAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/FindStand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/InsuranceAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/SalaryAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/SalaryListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/StandardAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/salary/StandardListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/user/CheckNumberAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/user/ImageCodeAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/user/ImageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/user/LoginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/user/UpdatePasswordAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/user/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/action/user/UserListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/AttendenceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/DeptDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/EmpDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/JdbcAttendenceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/JdbcDeptDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/JdbcEmpDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/JdbcSalaryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/JdbcUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/SalaryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/Attendence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/AttendenceSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/Insurance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/QueryInfomation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/Salary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/SalaryStandard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/struts-salary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/struts-user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/util/ConfigUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/util/DbUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/util/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/util/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/classes/util/dao.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/c3p0-0.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/commons-collections-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/commons-fileupload-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/commons-io-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/commons-pool.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/freemarker-2.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/mysql-connector-java-5.1.8-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/ognl-2.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/struts2-core-2.1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/struts2-json-plugin-2.1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/lib/xwork-core-2.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/addDept.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/detailDept.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/extremecomponents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/showDept.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/css/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/addNote.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_banner_menu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_button_blue.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_button_del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_button_update.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_header.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_bc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_bl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_br.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_ls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_rs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_tc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_tl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_left_tr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_login_panel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_login_panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_nav.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_rectbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_schedule.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_tabedbtn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_table_item.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_table_item2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_th.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_title.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_tr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/bg_users.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/default.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/delete.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/login_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/login_root.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/mail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_fs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_hb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_hl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_hl2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_hr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_lf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_ls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_rc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_rf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/main_rs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/menu_seprator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/minicalendar/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/minicalendar/minical_btnClose.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/minicalendar/minical_btnForward.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/minicalendar/minical_btnPrevious.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/minicalendar/minical_title.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_back.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_changePassword.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_forward.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_help.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_pre.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_print.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_resetPassword.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/nav_search.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/note.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/num/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/pp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/pp2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/skin/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/skin/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/skin/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/skin/83.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/skin/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/skin/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/skin/edt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/clear.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/clear.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/csv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/filter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/filterArrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/firstPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/firstPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/lastPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/lastPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/nextPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/nextPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/prevPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/prevPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/rowsDisplayed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/separator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/sortAsc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/sortDesc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/compact/xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/csv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/filter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/filterArrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/firstPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/firstPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/lastPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/lastPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/nextPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/nextPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/prevPage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/prevPageDisabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/rowsDisplayed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/separator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/sortAsc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/sortDesc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/table/xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/arrow_collapsed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/arrow_collapsed_hover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/arrow_expanded.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/arrow_expanded_hover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/branch_node.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/btn_close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/btn_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/empty.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/folder_closed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/folder_open.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/root_node.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/tree_node.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/images/tree/user_node.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/EmployeeMgr.files/ScriptResource(1).axd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/EmployeeMgr.files/ScriptResource.axd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/EmployeeMgr.files/WebResource.axd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/EmployeeMgr.files/bg_users.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/EmployeeMgr.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.files/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.files/Tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.files/TreeNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.files/bg_left_bl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.files/bg_left_br.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.files/bg_left_tl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.files/bg_left_tr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Left.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/Clock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/mail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/menu_seprator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/nav_back.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/nav_changePassword.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/nav_forward.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/nav_help.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/nav_pre.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.files/nav_resetPassword.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.files/Top.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/lable.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/left.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/list_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/list_button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/list_button_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/list_button_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/list_task.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/list_top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/menu_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/menu_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/menu_list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/reset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/right_table_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/submit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/top_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/top_lable.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/top_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/top_lf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/top_menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/index/xc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/js/jquery-1.4.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/addAttendence.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/addSalary.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/attendenceSet.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/css/extremecomponents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/css/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/detailAttendence.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/detailSalary.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/detailStandard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/lable.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/left.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/list_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/list_button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/list_button_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/list_button_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/list_task.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/list_top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/menu_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/menu_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/menu_list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/reset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/right_table_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/submit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/top_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/top_lable.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/top_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/top_lf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/top_menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/index/xc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/insurance.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/js/jquery-1.4.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/showAttendence.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/showSalary.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/showStandard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/skin/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/skin/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/skin/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/skin/83.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/skin/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/skin/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/salary/skin/edt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/skin/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/skin/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/skin/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/skin/83.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/skin/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/skin/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/skin/edt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/addDept.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/addEmp.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/addUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/css/extremecomponents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/css/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/detailDept.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/detailEmp.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/detailInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/lable.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/left.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/list_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/list_button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/list_button_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/list_button_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/list_task.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/list_top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/menu_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/menu_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/menu_list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/reset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/right_table_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/submit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/top_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/top_lable.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/top_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/top_lf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/top_menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/index/xc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/js/jquery-1.4.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/showDept.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/showEmp.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/skin/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/skin/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/skin/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/skin/83.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/skin/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/skin/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/skin/edt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/successful.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/updatePassword.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/updateUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/artifacts/EmpManageSys_Web_exploded/user/userlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/ImageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/LoginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/out/production/EmpManageSys/action/user/LoginAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/src/action/user/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/src/action/user/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmpManageSys/src/action/user/LoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmpManageSys/src/action/user/LoginAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/WebContent/script/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/Servlet/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/Servlet/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CtiteiaCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CtiteiaCustomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/ReflectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/dao/impl/CustomerImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/daomain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/daomain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/JDBCTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/JDBCTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/connectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/build/classes/mvc/db/connectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/mvc/dao/impl/CustomerImplTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/mvc/db/connectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloMVC/src/mvc/db/connectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/.rebel-remote.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/.rebel.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/artifacts/mystore2_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/artifacts/mystore2_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/WebContent/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/WebContent/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/mystore2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/mystore2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/out/artifacts/mystore2_Web_exploded/WEB-INF/classes/com/mystore/domian/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/out/artifacts/mystore2_Web_exploded/WEB-INF/classes/com/mystore/domian/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/out/production/mystore2/com/mystore/domian/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/out/production/mystore2/com/mystore/domian/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/src/com/mystore/domian/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/src/com/mystore/domian/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore2/src/com/mystore/web/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore2/src/com/mystore/web/RegistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/artifacts/mystore4_Web2_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/libraries/tomcat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/mystore4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/mystore4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mystore4/test/GoodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mystore4/src/com/mystore3/test/GoodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/.idea/artifacts/sushe_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sushe/.idea/artifacts/sushe_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sushe/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sushe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/LoginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/MenuBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/bootBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/ic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/left1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/left2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/leftbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/WebContent/Images/mainMenuBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/LoginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/MenuBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/bootBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/ic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/left1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/left2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/leftbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sushe/out/artifacts/sushe_Web_exploded/Images/mainMenuBg.jpg" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/test/TestDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/say.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/test/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/mapper/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/resources/spring/applicationcontext.xml" />
+        <option value="$PROJECT_DIR$/src/com/zzc/dao/UserQueryVo.java" />
+        <option value="$PROJECT_DIR$/resources/sqlmap/User.xml" />
+        <option value="$PROJECT_DIR$/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/com/zzc/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/test/TestMybatis.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/test/TestMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/utils/MybatisUtil.java" />
+        <option value="$PROJECT_DIR$/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/resources/mybatis/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/com/zzc/test/TestDao.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/domain/UserQueryVo.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/domain/UserCustom.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/domain/Items.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/mapper/ItemsMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/mapper/UserMapperOrders.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/zzc/mapper/UserMapperOrders.xml" />
+        <option value="$PROJECT_DIR$/src/com/zzc/mapper/ItemsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/zzc/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/zzc/test/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/resources/springmvc/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/com/zzc/web/MyController.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/say.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0__2_.xml" />
+        <option value="$PROJECT_DIR$/mybatis02.iml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/mybatis02_Web_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0__2_.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="75" />
+    <option name="y" value="46" />
+    <option name="width" value="1750" />
+    <option name="height" value="944" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mybatis02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis01" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzc.web" />
+      <recent name="com.zzc.test" />
+      <recent name="com.zzc.utils" />
+      <recent name="com.zzc.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\idea\mybatis02\web\WEB-INF\lib" />
+      <recent name="D:\Java\idea\mybatis02\resources\springmvc" />
+      <recent name="D:\Java\idea\mybatis02\src\com\zzc\domain" />
+      <recent name="D:\Java\idea\mybatis02\src\com\zzc\mapper" />
+      <recent name="D:\Java\idea\mybatis02\src\com\zzc\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UserMapperTest">
+    <configuration name="TestDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.TestDao" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.TestDao" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testFindUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.TestDao" />
+      <option name="METHOD_NAME" value="testFindUserByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.TestDao" />
+      <option name="METHOD_NAME" value="testUpdateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.UserMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="mybatis02:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_34_mybatis02_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10766" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="10768" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mybatis02:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestDao.testDeleteUser" />
+      <item itemvalue="JUnit.TestDao.testFindUserByUsername" />
+      <item itemvalue="JUnit.TestDao.testUpdateUser" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.34" />
+      <item itemvalue="JUnit.TestDao" />
+      <item itemvalue="JUnit.UserMapperTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest" />
+        <item itemvalue="JUnit.TestDao" />
+        <item itemvalue="JUnit.TestDao.testFindUserByUsername" />
+        <item itemvalue="JUnit.TestDao.testUpdateUser" />
+        <item itemvalue="JUnit.TestDao.testDeleteUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ef1f2e9-461f-4ac0-891e-9d4ca1afa242" name="Default Changelist" comment="" />
+      <created>1556320525609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556320525609</updated>
+      <workItem from="1556320533909" duration="23684000" />
+      <workItem from="1556369215630" duration="12794000" />
+      <workItem from="1556385546845" duration="3010000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserMapperTest_testUpdateUser - 2019.04.28 at 00h 07m 03s.xml">
+      <configuration name="UserMapperTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testDeleteUser - 2019.04.28 at 00h 08m 59s.xml">
+      <configuration name="UserMapperTest.testDeleteUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testFindUserList - 2019.04.28 at 00h 25m 04s.xml">
+      <configuration name="UserMapperTest.testFindUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDao_testFindUserById - 2019.04.28 at 00h 26m 52s.xml">
+      <configuration name="TestDao.testFindUserById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDao_testFindUserByUsername - 2019.04.28 at 00h 27m 18s.xml">
+      <configuration name="TestDao.testFindUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDao_testInsertUser - 2019.04.28 at 00h 27m 45s.xml">
+      <configuration name="TestDao.testInsertUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDao_testDeleteUser - 2019.04.28 at 00h 28m 04s.xml">
+      <configuration name="TestDao.testDeleteUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDao_testUpdateUser - 2019.04.28 at 00h 28m 20s.xml">
+      <configuration name="TestDao.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDao_testFindUserByUsername - 2019.04.28 at 01h 21m 34s.xml">
+      <configuration name="TestDao.testFindUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDao_testFindUserByUsername - 2019.04.28 at 01h 26m 08s.xml">
+      <configuration name="TestDao.testFindUserByUsername" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39488000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="60" y="37" width="1400" height="755" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963924" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95153475" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3296875" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.7.jar!/org/apache/ibatis/exceptions/ExceptionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/utils/MybatisUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/test/TestMapper.java" />
+    <entry file="file://$PROJECT_DIR$/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/UserQueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/UserMapperOrders.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/UserMapperOrders.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/ItemsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/ItemsMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sqlmap/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/OrdersCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/Orderdetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/UserCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/OrderCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/test/TestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/say.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/test/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzc/web/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/springmvc/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>mybatis02:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (mybatis02)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aopalliance-1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mybatis02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aopalliance-1.0 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

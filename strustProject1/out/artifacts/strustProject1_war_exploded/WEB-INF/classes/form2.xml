@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="from1" extends="struts-default">
+        <!--name属性填的是：地址栏的值 class属性填的是：对应的相关类的全路径  method 属性 ：执行类方法的名称-->
+        <action name="myform2" class="com.zzc.struts2.MyFrom2">
+            <!--跳转结果页，在结果页取出域对象的值-->
+            <result name="success">/success.jsp</result>
+        </action>
+
+    </package>
+</struts>

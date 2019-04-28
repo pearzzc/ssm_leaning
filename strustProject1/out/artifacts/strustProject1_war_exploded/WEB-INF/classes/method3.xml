@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+        <!--动态方法访问-->
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <package name="method3" extends="struts-default" namespace="/">
+        <!--name属性填的是：地址栏的值 class属性填的是：对应的相关类的全路径  method 属性 ：执行类方法的名称-->
+        <action name="goods" class="com.zzc.struts2.MethodAction">
+            <!--使用通配符调用方法时，内部会验证是否允许访问该方法，所以要在Action中加上-->
+            <allowed-methods>add,delete,find,update</allowed-methods>
+        </action>
+    </package>
+</struts>

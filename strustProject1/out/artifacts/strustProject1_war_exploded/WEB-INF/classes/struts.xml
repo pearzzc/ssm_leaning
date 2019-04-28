@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <!--直接引入配置文件-->
+    <include file="my_zzc.xml"></include>
+    <!--<include file="meothd.xml"></include>-->
+    <!--<include file="method2.xml"></include>-->
+    <include file="method3.xml"></include>
+    <include file="form.xml"></include>
+    <include file="form2.xml"></include>
+
+</struts>

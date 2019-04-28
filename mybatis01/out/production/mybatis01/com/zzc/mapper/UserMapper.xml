@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzc.mapper.UserMapper">
+    <!--id 查-->
+    <select id="findUserById" parameterType="int" resultType="com.zzc.domain.User">
+        select * from user where id =#{id};
+    </select>
+
+    <!--查名字-->
+    <select id="findUserByName" parameterType="com.zzc.domain.User" resultType="com.zzc.domain.User">
+        select * from user where username like '%${value}%';
+    </select>
+
+    <!--插-->
+<insert id="addUser" parameterType="com.zzc.domain.User" keyProperty="id" useGeneratedKeys="true" >
+    insert into user(username,birthday,sex,address) values (#{username},#{birthday},#{sex},#{address})
+</insert>
+<!--删-->
+    <delete id="deleteUSerById" parameterType="int">
+        delete from user where id = #{id};
+    </delete>
+
+    <!--更新-->
+    <update id="updateUser" parameterType="com.zzc.domain.User">
+        update user set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id =#{id};
+    </update>
+
+    <!--输入映射-->
+    <select id="findUserList" parameterType="com.zzc.domain.UserQueryVo" resultType="com.zzc.domain.User">
+	select * from user
+	            <where>
+	            <!--动态引入-->
+                    <include refid="query_user_where"></include>
+                </where>
+    </select>
+
+<!--截取sql片断-->
+    <sql id="query_user_where">
+        <if test="user!=null">
+            <if test="user.sex!=null and user.sex!=''">
+                and user.sex = #{user.sex}
+            </if>
+            <if test="user.username!=null and user.username!=''">
+                and user.username like '%${user.username}%'
+            </if>
+        </if>
+        <!--
+        collection：指定输入对象中的集合属性，这里就是这个ids。
+        item：表示每个遍历生成的对象，自己起个名儿，在foreach体中使用。
+        open：开始遍历时拼接的sql串。
+        close：结束遍历时拼接的sql串。
+         separator：遍历的两个对象中需要拼接的sql串。
+          -->
+        <if test="ids!=null">
+            <!-- 使用右边的sql拼接：AND (id=1 OR id=12 OR id=17)
+            <foreach collection="ids" item="user_id" open="AND ("  close=")" separator="OR">
+                id=#{user_id}
+            </foreach>-->
+
+            <!-- 使用右边的sql拼接：AND id IN(1,12,17) -->
+            <foreach collection="ids" item="user_id" open="AND id IN(" close=")" separator=",">
+                #{user_id}
+            </foreach>
+        </if>
+    </sql>
+    <!--输出映射-->
+    <!--
+        声明一个resultMap；id 是resultMap 的唯一标识
+        type :映射成的最终Java类型，要写全限定名，也可用别名代替
+    -->
+    <resultMap id="userResultMap" type="com.zzc.domain.User">
+        <!--
+        id标签时主键
+        result标签时其他普通属性
+        标签的属性：Colum：数据库的字段名：property：Java程序的属性名
+        -->
+        <id column="id_" property="id"/>
+        <result column="username_" property="username"/>
+    </resultMap>
+    <select id="findUserByIdResultMap" parameterType="int" resultMap="userResultMap">
+        select id id_,username username_ from user where user.id = #{id};
+    </select>
+
+</mapper>

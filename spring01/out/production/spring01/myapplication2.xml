@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+       xmlns:p="http://www.springframework.org/schema/p"
+>
+    <!--        将新加的引用型数据类型，也交给Spring 进行管理-->
+    <bean id="dog" class="com.zzc.denmo5.Dog" p:name="www" p:age="1" p:price="2.1">
+    </bean>
+   <!-- <bean id="dog2" class="com.zzc.denmo5.Dog">
+        <property name="name" value="#{'www'}"/>
+        <property name="age" value="#{1}"/>
+        <property name="price" value="#{2.11}"/>
+    </bean>-->
+
+    <bean id="student" class="com.zzc.denmo5.Student">
+        <property name="name" value="zhouzechong"/>
+        <property name="age" value="12"/>
+
+        <property name="arr">
+            <list>
+                <value>123</value>
+                <value>133</value>
+                <value>223</value>
+            </list>
+        </property>
+
+        <property name="myList">
+            <list>
+                <value>qw12</value>
+                <value>qq2e</value>
+                <value>q2e</value>
+            </list>
+        </property>
+
+        <property name="myMap">
+            <map>
+                <entry key="1" value="123"></entry>
+                <entry key="2" value="213"></entry>
+                <entry key="3" value="312"></entry>
+            </map>
+        </property>
+
+        <property name="mySet">
+            <set>
+                <value>123</value>
+                <value>obj</value>
+            </set>
+        </property>
+        <property name="dog" ref="dog"/>
+    </bean>
+</beans>
