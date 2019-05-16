@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="false" timestamp="41">
+    <list key="modules" value0="webapp3::org.eclipse.jst.jee.server:webapp3::jst.web::3.0" value1="webapp2::org.eclipse.jst.jee.server:webapp2::jst.web::3.0" value10="mystore4::org.eclipse.jst.jee.server:mystore4::jst.web::3.0" value2="webapp1::org.eclipse.jst.jee.server:webapp1::jst.web::2.5" value3="webapp4::org.eclipse.jst.jee.server:webapp4::jst.web::3.0" value4="sushe::org.eclipse.jst.jee.server:sushe::jst.web::2.5" value5="session-cookie::org.eclipse.jst.jee.server:session-cookie::jst.web::3.0" value6="jsp::org.eclipse.jst.jee.server:jsp::jst.web::3.0" value7="mystore2::org.eclipse.jst.jee.server:mystore2::jst.web::3.0" value8="mystore::org.eclipse.jst.jee.server:mystore::jst.web::3.0" value9="mystore3::org.eclipse.jst.jee.server:mystore3::jst.web::3.0"/>
+  </server>
+</servers>

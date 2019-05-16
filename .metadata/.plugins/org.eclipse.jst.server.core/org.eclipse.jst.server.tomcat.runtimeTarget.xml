@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/annotations-api.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/6/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/catalina-ant.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/catalina-ha.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/catalina-tribes.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/catalina.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/ecj-4.4.2.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/el-api.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/6/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/jasper-el.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/jasper.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/jsp-api.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/6/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/servlet-api.jar" runtime-id="Apache Tomcat v7.0" source-attachment-path="D:/Tomcat/apache-tomcat-7.0.92/apache-tomcat-7.0.92-src.zip">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/6/api/"/>
+    <attribute name="source_encoding" value="UTF-8"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-api.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-coyote.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-dbcp.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-i18n-es.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-i18n-fr.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-i18n-ja.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-i18n-ru.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-jdbc.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat-util.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/tomcat7-websocket.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-7.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/Tomcat/apache-tomcat-7.0.92/lib/websocket-api.jar" runtime-id="Apache Tomcat v7.0">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/6/api/"/>
+  </source-attachment>
+</classpath>

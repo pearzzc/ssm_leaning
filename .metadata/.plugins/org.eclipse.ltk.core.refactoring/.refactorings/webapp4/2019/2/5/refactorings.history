@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Dispatcher01Servlet.java&apos; to &apos;webapp4/src/com.xuexi.dispatcher&apos;&#x0D;&#x0A;- Original project: &apos;webapp4&apos;&#x0D;&#x0A;- Destination element: &apos;webapp4/src/com.xuexi.dispatcher&apos;&#x0D;&#x0A;- Original element: &apos;com.xuexi.dispatcher.Dispatcher01Servlet.java&apos;" description="Copy compilation unit" destination="/src&lt;com.xuexi.dispatcher" element1="/src&lt;com.xuexi.dispatcher{Dispatcher01Servlet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1548996790428" units="1" version="1.0"/>
+</session>

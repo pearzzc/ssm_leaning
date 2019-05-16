@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function change(obj) {
+		obj.src = "/webapp3/CheckCodeServlet?time="+new Date().getTime();
+	}
+</script>
+</head>
+<body>
+	<h1>登入界面</h1>
+	<form action="http://localhost:8080/webapp3/LoginServlet" method="get"><br/>
+		用户名：<input type="text" placeholder="请输入用户名..." name="username"><br/>
+		密码：<input type="text" placeholder="请输入用密码..." name="password"><br/>
+		注册码：<input type="text" placeholder="请输入验证码。。。"><br/>
+		<img alt="" src="/webapp3/CheckCodeServlet" onclick="change(this)"><br/>
+		<input type="submit" value="登入"><br>
+	</form>
+</body>
+</html>

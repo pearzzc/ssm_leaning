@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function change(obj) {
+		obj.src = "/webapp3/CheckCodeServlet?time="+new Date().getTime();
+	}
+</script>
+</head>
+<body>
+	<form action="/webapp3/RegistServlet" method="get">
+		<img alt="" src="/webapp3/CheckCodeServlet" onclick="change(this)"><br/>
+		<input type="text" placeholder="请输入验证码。。。" name="code"><br/>
+		<input type="submit" value="注册"/><br>
+	</form>
+</body>
+</html>

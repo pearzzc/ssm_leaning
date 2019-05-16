@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+  <absolute-ordering></absolute-ordering>
+  <display-name>webapp1</display-name>
+  
+  <servlet>
+  	<servlet-name>aaa</servlet-name>
+  	<servlet-class>com.test.servlet.FirstServlet</servlet-class>
+  	<init-param>
+  		<param-name>周泽冲</param-name>
+  		<param-value>他是个大佬</param-value>
+  	</init-param>
+  	<load-on-startup>3</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aaa</servlet-name>
+  	<url-pattern>/first</url-pattern>
+  	<!-- 目录匹配<url-pattern>/aa/bb/*</url-pattern> -->
+  	<!--扩展名匹配<url-pattern>*.my01</url-pattern>  -->
+  	
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>zbx</servlet-name>
+  	<servlet-class>com.test.servlet.SecondServlet</servlet-class>
+  	<load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>zbx</servlet-name>
+  	<url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  <!-- <servlet-mapping>
+  	<servlet-name>zbx</servlet-name>
+  	缺省扩展名匹配
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping> -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file><!-- 默认自动要找的资源，他会依次进行查找 -->
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

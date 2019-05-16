@@ -1,0 +1,13 @@
+#Tomcat publish data
+#Thu Mar 14 08:50:37 CST 2019
+org.eclipse.jst.jee.server\:mystore4=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\mystore4
+org.eclipse.jst.jee.server\:mystore3=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\mystore3
+org.eclipse.jst.jee.server\:mystore2=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\mystore2
+org.eclipse.jst.jee.server\:webapp4=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\webapp4
+org.eclipse.jst.jee.server\:webapp3=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\webapp3
+org.eclipse.jst.jee.server\:jsp=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\jsp
+org.eclipse.jst.jee.server\:webapp2=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\webapp2
+org.eclipse.jst.jee.server\:webapp1=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\webapp1
+org.eclipse.jst.jee.server\:mystore=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\mystore
+org.eclipse.jst.jee.server\:session-cookie=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\session-cookie
+org.eclipse.jst.jee.server\:sushe=D\:\\Tomcat\\apache-tomcat-7.0.92\\webapps\\sushe
