@@ -1,0 +1,17 @@
+spring:
+
+  profiles:
+    active: dev
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.10.12:12345/SpringBoot?useUnicode=true&charracterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    data-username: root
+    data-password: 12345
+    platform: mysql
+
+logging:
+  path: D:/demolog
+
+
+
